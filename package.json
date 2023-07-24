@@ -1,0 +1,24 @@
+{
+  "name": "car-rental",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "morganTuber",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "scripts": {
+    "install:packages:frontend": "cd frontend && yarn",
+    "install:packages:backend": "cd backend && yarn",
+    "install:packages": "yarn && yarn install:packages:frontend && yarn install:packages:backend",
+    "start:frontend": "cd frontend && yarn dev",
+    "start:backend": "cd backend && yarn dev",
+    "start": "concurrently --kill-others \"yarn start:frontend\" \"yarn start:backend\""
+  },
+  "dependencies": {
+    "next": "^13.4.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  }
+}

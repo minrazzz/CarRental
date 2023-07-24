@@ -1,0 +1,73 @@
+{
+    "signature": "t=1648884686,v1=6e375028c98e3c3b22d2eba427490758f0b91c9f5912b47882474ab852e77927,v0=67a9fc79f8fe164201159223358654ee1036da2c3783bfc2581237062261acfc",
+    "id": "cs_test_a1KooM6aEWrKSiPOW7zZpYr3D8MmZXoeVd8rkgVyVYAAFugBNDEGDhYIIA",
+    "object": "checkout.session",
+    "after_expiration": null,
+    "allow_promotion_codes": null,
+    "amount_subtotal": 213200,
+    "amount_total": 213200,
+    "automatic_tax": {
+        "enabled": false,
+        "status": null
+    },
+    "billing_address_collection": null,
+    "cancel_url": "http://localhost:3000/cars/6247f7ba31d872bb2aaab8b2",
+    "client_reference_id": "6247f7ba31d872bb2aaab8b2",
+    "consent": null,
+    "consent_collection": null,
+    "currency": "usd",
+    "customer": "cus_LQtD8VswXvkrKQ",
+    "customer_creation": "always",
+    "customer_details": {
+        "address": {
+            "city": null,
+            "country": "NP",
+            "line1": null,
+            "line2": null,
+            "postal_code": null,
+            "state": null
+        },
+        "email": "wetuzowa@norwegischlernen.info",
+        "name": "Sachin Aryal",
+        "phone": null,
+        "tax_exempt": "none",
+        "tax_ids": []
+    },
+    "customer_email": "wetuzowa@norwegischlernen.info",
+    "expires_at": 1648971067,
+    "livemode": false,
+    "locale": null,
+    "metadata": {
+        "startDate": "2022-04-06T18:15:00.000Z",
+        "endDate": "2022-04-12T18:15:00.000Z",
+        "pickupLocation": "{\"lng\":85.32259643781998,\"lat\":27.71743970352989}",
+        "dropoffLocation": "{\"lng\":85.32478512037517,\"lat\":27.717361347273297}"
+    },
+    "mode": "payment",
+    "payment_intent": "pi_3Kk1QNKvRiLpVzG400sFfv3y",
+    "payment_link": null,
+    "payment_method_options": {},
+    "payment_method_types": [
+        "card"
+    ],
+    "payment_status": "paid",
+    "phone_number_collection": {
+        "enabled": false
+    },
+    "recovered_from": null,
+    "setup_intent": null,
+    "shipping": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "shipping_rate": null,
+    "status": "complete",
+    "submit_type": null,
+    "subscription": null,
+    "success_url": "http://localhost:3000/profile?success=true&carName=Nissan Spyder",
+    "total_details": {
+        "amount_discount": 0,
+        "amount_shipping": 0,
+        "amount_tax": 0
+    },
+    "url": null
+}
